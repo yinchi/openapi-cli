@@ -9,10 +9,9 @@ Author: Yin-Chi Chan
     cd /path/to/project
     uv run openapi <args>
     ```
-- Option 2: global install with `pipx`
+- Option 2: global install with `pipx` (editable)
   ```bash
   cd /path/to/project
-  uv build
-  pipx install dist/openapi<...>.whl
+  pipx install -e .
   openapi <args>
   ```
