@@ -19,6 +19,6 @@ Author: Yin-Chi Chan
   openapi <args>
   ```
 
-  ### Documentation
+### Documentation
 
-  Run `openapi <cmd> -h` to see usage information for each command or `openapi -h` for a list of commands.
+Run `openapi <cmd> -h` to see usage information for each command or `openapi -h` for a list of commands.
