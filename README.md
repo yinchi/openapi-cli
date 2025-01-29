@@ -22,3 +22,7 @@ Author: Yin-Chi Chan
 ### Documentation
 
 Run `openapi <cmd> -h` to see usage information for each command or `openapi -h` for a list of commands.
+
+### Screenshot
+
+![Screenshot of the openapi CLI app](docs/img/screenshot_readme.png)
