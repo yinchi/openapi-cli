@@ -7,11 +7,18 @@ from requests import ConnectionError, JSONDecodeError, Timeout
 from .util import HTTPException, error, fix_path, get_spec, parse_schema, style_method
 
 CONTEXT_SETTINGS = {"help_option_names": ['-h', '--help'], "color": True}
+EPILOG = """\
+\b
+Execute:
+    openapi <cmd> -h
+to read help information for each command."""
 
-
-@click.group(context_settings=CONTEXT_SETTINGS)
+@click.group(context_settings=CONTEXT_SETTINGS, epilog=EPILOG)
 def api():
-    """Top-level group for the `click` app."""
+    """Command-line application for interacting with APIs using the OpenAPI specifications.
+    
+    Parse an openapi.json file and view the available endpoints, or show details for
+    a single endpoint."""
 
 
 @api.command(name='ep')

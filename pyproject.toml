@@ -1,7 +1,7 @@
 [project]
 name = "openapi-cli"
 version = "0.0.1"
-description = "Add your description here"
+description = "CLI for interacting with APIs using the OpenAPI specifications"
 readme = "README.md"
 authors = [
     { name = "Yin-Chi Chan", email = "ycc39@cam.ac.uk" }

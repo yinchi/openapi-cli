@@ -1,4 +1,4 @@
-# CLI for working with OpenAPI specifications
+# CLI for working with APIs using the OpenAPI specifications
 
 Author: Yin-Chi Chan
 
@@ -22,4 +22,3 @@ Author: Yin-Chi Chan
   ### Documentation
 
   Run `openapi <cmd> -h` to see usage information for each command or `openapi -h` for a list of commands.
-  
